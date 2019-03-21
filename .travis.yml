@@ -24,7 +24,6 @@ jobs:
   include:
     - stage: deploy
       python: 3.6
-      script: true
       deploy:
         provider: pypi
         user: kgadek
