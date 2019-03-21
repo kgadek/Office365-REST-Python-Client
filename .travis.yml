@@ -15,6 +15,7 @@ matrix:
 jobs:
   include:
     - stage: test
+      install: true
       script: python setup.py test
       if: repo = "vgrem/Office365-REST-Python-Client"
     - stage: deploy
