@@ -12,12 +12,11 @@ matrix:
       - python: 2.6
       - python: 3.2
 
+if: repo = "vgrem/Office365-REST-Python-Client"
+script: python setup.py test
+
 jobs:
   include:
-    - stage: test
-      install: true
-      script: python setup.py test
-      if: repo = "vgrem/Office365-REST-Python-Client"
     - stage: deploy
       if: repo = "kgadek/Office365-REST-Python-Client"
       python: 3.6
