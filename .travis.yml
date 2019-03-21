@@ -32,4 +32,6 @@ jobs:
         skip_existing: true
         password:
           secure: j4zNo0xJMUZUWj1poP6lJ1lmRTRur8u1XuU0Lle/nxsheoLTxPvivpoUYlJP06eoYstbabRcIssk5J754c0IYJfLo/dNxxSzqWFdlCPA/NloIj3ORZoEP9SByvxJC5lnKQr0NoOTbhe/sSml7S0BauVuC9dToN2ykgjvYsTF4luWw01f9k8MMkwsOY7CVTHbftVkQ8KsO1ibW1my4baTe6YlmJKMytehUeFLnJPzUbxtbUhxuO+1WcZI2phJeKablQGN2pIW77mJ6MWQ/mvYGmQKuheTF/oBIOiQMR6LQMwW6v6D6SKWe/4Z79HgIpRThOjytHsE6t4GFhCNqGNwlLtl6NZqNw35eCHufkYUUQAJSgEbOfGuim+1xRQ9Umzub1bfluX+laPCVx4ynQSdVHiUkZQP/SKc1q+njFOwJXk7FgEQoQxkJqMUcucanepWZD6cwRXsKx69X+1W55kdRkU7pNZbi7wrgPbGiIMfVT83JMvC/K80P2L6BLTeW0emhCDK138ZRSPO+S6QjkbJEDZBSqIk/g9i+G98NYI5B8kBuCKaAZr/MtI9zK4OC3qXp/f2GKlLkrOC9Qp9u5/5Rr5aME4ecHEFyANeQOcPh4yCthJUSo0qGR8D687WF6b++Uu6J4yDb5DPbdW95FVu5ejFGDh71hrf5RXu5mOSUQA=
+        on:
+          tags: true
 
